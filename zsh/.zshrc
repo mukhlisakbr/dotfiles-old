@@ -11,7 +11,11 @@
 # source $ZSH/oh-my-zsh.sh
 
 # starship
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
+
+# pure
+autoload -U promptinit; promptinit
+prompt pure
 
 # nvm things
 export NVM_DIR="$HOME/.nvm"
