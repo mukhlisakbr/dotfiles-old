@@ -11,12 +11,14 @@ Just small pieces of my dotfiles
 
 ```bash
 brew install stow
-stow macos/zsh
+cd macos
+stow zsh -t ~
 ```
 
 ### linux / wsl
 
 ```bash
 sudo apt install stow
-stow linux/zsh
+cd linux
+stow zsh -t ~
 ```
