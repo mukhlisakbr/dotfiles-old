@@ -2,9 +2,21 @@
 
 Just small pieces of my dotfiles
 
-## Install
+
+# clone 
+`git clone https://github.com/mukhlisakbr/dotfiles`
+
+# setup
+### maocs
 
 ```bash
 brew install stow
-stow zsh
+stow macos/zsh
+```
+
+### linux / wsl
+
+```bash
+sudo apt install stow
+stow linux/zsh
 ```
