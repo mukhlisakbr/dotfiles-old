@@ -42,7 +42,9 @@ stow zsh -t ~
 install this
 
 - windows terminal
-- powershell
+- [powershell](https://github.com/PowerShell/PowerShell)
+- [scoop](https://github.com/ScoopInstaller/Scoop)
+- [nvm-windows](https://github.com/coreybutler/nvm-windows)
 - [oh-my-posh](https://ohmyposh.dev/docs/windows)
 - [powershell-git-aliases](https://github.com/gluons/powershell-git-aliases)
 
