@@ -4,27 +4,46 @@ Just small pieces of my dotfiles
 
 ## clone
 
-`git clone https://github.com/mukhlisakbr/dotfiles`
+clone this repo to user folder
+
+```bash
+git clone https://github.com/mukhlisakbr/dotfiles
+```
 
 ## macos
 
+install this
+
+- stow
+- zsh
+- homebrew
+- antigen
+  
 ```bash
-brew install stow
 cd macos
 stow zsh -t ~
 ```
 
 ## linux / wsl
 
+install this
+
+- stow
+- zsh
+- antigen
+
 ```bash
-sudo apt install stow
 cd linux
 stow zsh -t ~
 ```
 
 ## windows
 
-install this [oh-my-posh](https://ohmyposh.dev/docs/windows)
+install this
+
+- windows terminal
+- powershell
+- [oh-my-posh](https://ohmyposh.dev/docs/windows)
 
 edit `Documents\PowerShell\Microsoft.PowerShell_profile.ps1` to
 
