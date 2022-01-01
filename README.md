@@ -44,6 +44,7 @@ install this
 - windows terminal
 - powershell
 - [oh-my-posh](https://ohmyposh.dev/docs/windows)
+- [powershell-git-aliases](https://github.com/gluons/powershell-git-aliases)
 
 edit `Documents\PowerShell\Microsoft.PowerShell_profile.ps1` to
 
