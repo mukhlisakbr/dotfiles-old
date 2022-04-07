@@ -1,4 +1,4 @@
-#antigen
+# antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen theme robbyrussell
@@ -16,3 +16,7 @@ export NVM_DIR="$HOME/.nvm"
 # brew
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# alias
+alias ll="exa -l --icons"
+alias l="ll -a"
