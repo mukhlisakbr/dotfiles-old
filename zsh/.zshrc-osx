@@ -22,6 +22,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
 # alias
-alias ll="exa -l --icons"
-alias l="ll -a"
+alias l="exa -l --icons"
+alias ll="l -a"
 alias lg="lazygit"
+alias ld="lazydocker"
