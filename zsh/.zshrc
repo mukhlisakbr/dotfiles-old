@@ -1,8 +1,8 @@
 case "$OSTYPE" in
   darwin*)
-    source .zshrc-osx
+    source ~/.zshrc-osx
   ;;
   linux*)
-    source .zshrc-linux
+    source ~/.zshrc-linux
   ;;
 esac
