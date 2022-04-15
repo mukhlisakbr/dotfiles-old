@@ -24,3 +24,4 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 # alias
 alias ll="exa -l --icons"
 alias l="ll -a"
+alias lg="lazygit"
