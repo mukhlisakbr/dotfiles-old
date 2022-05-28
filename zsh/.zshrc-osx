@@ -1,18 +1,20 @@
 # antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
 antigen use oh-my-zsh
-antigen theme robbyrussell
+#antigen theme robbyrussell
 antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
-#antigen bundle agkozak/zsh-z
 antigen apply
+
+# starship
+eval "$(starship init zsh)"
 
 # zoxide
 eval "$(zoxide init zsh)"
 
-# nvm things
+# nvm 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -26,3 +28,6 @@ alias l="exa -l --icons"
 alias ll="l -a"
 alias lg="lazygit"
 alias ld="lazydocker"
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
