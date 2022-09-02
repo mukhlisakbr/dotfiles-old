@@ -2,15 +2,11 @@
 SendMode Input
 SetWorkingDir, %A_ScriptDir%
 
-; swap capslock, ctrl, and escape
-CapsLock::Ctrl
-Escape::CapsLock
-
 ; vim style movement
-^h::Send {Left}
-^j::Send {Down}
-^k::Send {Up}
-^l::Send {Right}
+CapsLock & h::Left
+CapsLock & j::Down
+CapsLock & k::Up
+CapsLock & l::Right
 
 ; vim escape
-^[::Send {Esc}
+CapsLock & [::Send {Esc}
