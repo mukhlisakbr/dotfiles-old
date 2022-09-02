@@ -42,3 +42,5 @@ how to make symlink
 - [powershell-git-aliases](https://github.com/gluons/powershell-git-aliases) - alias for git
 - [autohotkey](https://github.com/Lexikos/AutoHotkey_L) - to remap key
   - [run at startup](https://www.autohotkey.com/docs/FAQ.htm#Startup)
+- [zoxide](https://github.com/ajeetdsouza/zoxide#installation) - cd dir jumping
+- [lazygit](https://github.com/jesseduffield/lazygit) - git cli
