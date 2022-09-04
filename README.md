@@ -45,3 +45,5 @@ how to make symlink
 - [zoxide](https://github.com/ajeetdsouza/zoxide#installation) - cd dir jumping
 - [lazygit](https://github.com/jesseduffield/lazygit) - git cli
 - [lsd](https://github.com/Peltoche/lsd) - ls replacement
+- [fzf](https://github.com/junegunn/fzf) - fuzzy finder
+  - [psfzf](https://github.com/kelleyma49/PSFzf) - integrate fzf to pwsh

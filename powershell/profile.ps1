@@ -14,9 +14,14 @@ Set-Alias ll list-long
 Set-Alias la list-all
 Set-Alias lla list-longall
 Set-Alias lg lazygit
+Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 
 #zoxide
 Invoke-Expression (& {
     $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
     (zoxide init --hook $hook powershell | Out-String)
 })
+
+#fzf
+Import-Module PSFzf
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
