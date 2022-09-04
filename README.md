@@ -44,3 +44,4 @@ how to make symlink
   - [run at startup](https://www.autohotkey.com/docs/FAQ.htm#Startup)
 - [zoxide](https://github.com/ajeetdsouza/zoxide#installation) - cd dir jumping
 - [lazygit](https://github.com/jesseduffield/lazygit) - git cli
+- [lsd](https://github.com/Peltoche/lsd) - ls replacement
