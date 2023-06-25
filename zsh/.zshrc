@@ -1,3 +1,6 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
+
 case "$OSTYPE" in
   darwin*)
     source ~/.zshrc-osx
@@ -6,3 +9,6 @@ case "$OSTYPE" in
     source ~/.zshrc-linux
   ;;
 esac
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
